@@ -1,6 +1,6 @@
 # Daily Planner App
 
-<img src="assets/images/daily-planner-app.jpg" width="700px">
+<img src="assets/images/daily-planner-app.jpg" width="900px">
 
 ## Description
 
@@ -8,7 +8,7 @@ In this project I was required to create a daily planner app, much like Google C
 
 Once each event is saved they will persist even if the browser tab is closed or refreshed.
 
-_Find the link to the the deployed website [here](https://prodigalprogrammer.github.io/)_
+_Find the link to the the deployed website [here](https://prodigalprogrammer.github.io/daily-planner-app/)_
 
 <p align="right">(<a href="#daily-planner-app" >Back to top</a>)</p>
 
@@ -51,6 +51,8 @@ Monrone Stewart: [YouTube](https://www.youtube.com/@ProdigalP) - prodigalprogram
 ## Acknowledgement
 
 - [GitHub Pages](https://pages.github.com/)
+- [Mozilla Development Network](https://developer.mozilla.org/en-US/)
+- [jQuery Documentation](https://api.jquery.com/)
 - [The Complete JavaScript Course 2024: From Zero to Expert!](https://www.udemy.com/course/the-complete-javascript-course/)
 
 <p align="right">(<a href="#daily-planner-app" >Back to top</a>)</p>
