@@ -58,6 +58,11 @@ header {
   color: white;
 }
 
+.saveMsg {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+}
+
 .saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
@@ -66,12 +71,12 @@ header {
   color: white;
 }
 
-.saveBtn:hover * {
-  width: 26px;
-  height: 26px;
-  transition: all 0.3s ease-in-out;
+.saveBtn:focus {
+  background-color: #65f876;
+  transition: all 0.3s;
 }
+
 .saveBtn:active * {
   translate: 0 2.5px;
-  transition: all 0.1s ease-in-out;
+  transition: all 0.05s ease-in-out;
 }

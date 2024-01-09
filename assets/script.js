@@ -35,7 +35,22 @@ for (var i = 0; i < 9; i++) {
   } else {
     section.addClass("past");
   }
-  console.log(parseInt(section.text()));
 }
-console.log(parseInt(dayjs().format("HH")));
+
+document
+  .querySelector(".container")
+  .addEventListener("click", function (event) {
+    var element = event.target;
+    var saveMsg = document.createElement("h2");
+    saveMsg.classList.add("saveMsg");
+    document.querySelector(".container").prepend(saveMsg);
+    console.log(element);
+    if (element.matches("button") || element.matches("svg")) {
+      saveMsg.textContent =
+        `${parseInt(element.closest("section").dataset.index) + 8}` +
+        ":00 Event Saved! ✅";
+      setTimeout(() => (saveMsg.textContent = ""), 2000);
+    }
+  });
+
 setInterval(time, 0);
